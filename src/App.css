@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.navbar-wrapper a {
+  padding-left: 10px;
+  color: darkgray;
+}
+.navbar-wrapper a:hover {
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #14afda;
+  padding: 30px;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+.jumbotron .form {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.jumbotron .form input {
+  border: none;
+  padding: 5px;
+  width: 350px;
+}
+
+.jumbotron .form .btn-submit {
+  border: none;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.cards .text {
+  flex: 3;
+}
+
+.button-action {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin: 1px;
+}
+
+.button-edit {
+  background-color: orange;
+}
+
+.button-hapus {
+  background-color: orangered;
+}
